@@ -1,0 +1,23 @@
+body {
+  padding: 50px;
+  background-color: f3f3d9
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Saira',
+    monospace;
+}
+
+h1 {
+color: #bc8f8f
+}
+p {
+  background-color: #ff99ff;
+  padding: 0px;
+  color: #ff4700;
+  font-style: oblique
+}
+h2 {
+  color: #666;
+  font-style: oblique
+}

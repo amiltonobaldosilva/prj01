@@ -1,10 +1,14 @@
 import './App.css';
 import HelloWord from './components/helloword';
 import Pessoa from './components/pessoa';
-import Logo from './imgs/milogo.jpg'
+import Logo from './imgs/milogo.jpg';
+
+
 
 function App() {
+  document.title = 'EFG - DESENVOLVIMENTO WEB';
   const miolo="Amilton Obaldo"
+   
   return (
     <div className="App">
       <h1>Técnico Desenvolvimento Web e Mobile, {miolo}</h1>

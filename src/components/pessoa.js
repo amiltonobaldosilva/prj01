@@ -2,7 +2,7 @@ import styles from './pessoa.module.css'
 function Pessoa({logomi, aluno, professor, escola, trabalho, foto}) {
 return(
 <div className={styles.pessoaContainer}>
-<img src={logomi} alt="Mercado Imenso" />
+<img className={styles.logoMi} src={logomi} alt="Mercado Imenso" />
 <h2 className={styles.pessoaContent}>ALUNO: {aluno}</h2>
 <p className={styles.pessoaContent}>PROFESSOR: {professor}</p>
 <p className={styles.pessoaDescription}>ESCOLA: {escola}</p>
@@ -13,8 +13,8 @@ return(
     onClick={(e) => {
       e.preventDefault();
       window.open('https://www.mercadoimenso.com.br', '_blank');
-      EventTarget="_blank";
-      }}
+                    }
+}
 > Mercado Imenso</button>
 </div>
     )

@@ -53,3 +53,7 @@
 .botao:hover {
     animation: none;
 }
+.logoMi {
+    padding: 10%;
+    width: 60%;
+}

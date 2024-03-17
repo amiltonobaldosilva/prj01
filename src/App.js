@@ -4,17 +4,18 @@ import Pessoa from './components/pessoa';
 import Logo from './imgs/milogo.jpg'
 
 function App() {
-  const miolo="Obaldo"
+  const miolo="Amilton Obaldo"
   return (
     <div className="App">
-      <h1>Meu primeiro Projeto, {miolo}</h1>
-      <h3>Criando componentes!</h3>
+      <h1>Técnico Desenvolvimento Web e Mobile, {miolo}</h1>
+      <h2>Página desenvolvida em React Js!</h2>
       <HelloWord />
       <Pessoa 
-      nome="Amilton Obaldo da Silva" 
-      telefone="62994407707" 
-      idade="47" 
-      foto={Logo} />
+      aluno="Amilton Obaldo da Silva" 
+      professor="Heberson Miliano Miliano" 
+      escola="EFG - Escola do Futuro" 
+      trabalho="Página Simples em Html e Css"
+      logomi={Logo} />
     </div>
   );
 }

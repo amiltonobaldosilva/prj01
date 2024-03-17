@@ -1,6 +1,8 @@
 .pessoaContainer {
     background-color: #ffffff;
-    border: 1px solid #111;    
+    border: 2px solid #504a4a;  
+    border-radius: 30px;
+    padding: 5px;  
 }
 .pessoaContent {
     color: #000000;
@@ -8,7 +10,46 @@
     margin: 0px;
 }
 .pessoaDescription {
-    color:rgb(255, 255, 255);
-    background-color: #a01616;
+    color:#272727;
+    background-color: #ffffff;
+    font-size: 26px;
     border: 1px
+}
+.botaoEnviar{
+    color: #3b3b44;
+    font-size: 20px;
+    font-style: inherit;
+    font-weight: bold; 
+    padding: 15px 15px;
+    background-color: #c6c6c6;
+}
+.botao{
+    target-new: tab ! important;
+    background-color: #FF4700;
+    border: none;
+    color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    animation: pulse 2s infinite;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.botao:hover {
+    animation: none;
 }

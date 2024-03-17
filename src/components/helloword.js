@@ -1,6 +1,6 @@
 function HelloWord() {
 return(
-<h1>Botão que leva à loja!</h1>
+<h1>O botão que leva à loja!</h1>
 )
 }
 

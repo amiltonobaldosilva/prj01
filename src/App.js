@@ -13,7 +13,7 @@ function App() {
       <Pessoa 
       aluno="Amilton Obaldo da Silva" 
       professor="Heberson Miliano Miliano" 
-      escola="EFG - Escola do Futuro" 
+      escola="EFG - Escola do Futuro de Goiás" 
       trabalho="Página Simples em Html e Css"
       logomi={Logo} />
     </div>
